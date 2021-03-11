@@ -2,6 +2,8 @@ class Solution {
 public:
     int findDuplicate(vector<int>& nums) {
         
+        // single number can be repeated any number of times
+        
         // using cycle detection method
         int slow=nums[0];
         int fast = nums[0];
